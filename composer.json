@@ -9,7 +9,22 @@
         "name": "Jonathan Shaw",
         "email": "jonathanjfshaw@gmail.com"
     }
-  ],  
+  ],
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "VRiabovol/phpunitbehat",
+        "version": "3.0",
+        "type": "package",
+        "source": {
+          "url": "https://github.com/VRiabovol/phpunitbehat",
+          "type": "git",
+          "reference": "master"
+        }
+      }
+    }
+  ],
   "require": {
       "php": ">=7.0.0",
       "behat/behat": "^3.0",
