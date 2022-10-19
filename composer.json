@@ -1,22 +1,18 @@
 {
-  "repositories": [
+  "name": "jonathanjfshaw/phpunitbehat",
+  "type": "library",
+  "description": "Use Behat from within PHPUnit.",
+  "keywords": ["phpunit", "behat", "testing"],
+  "license": "MIT",
+  "authors": [
     {
-      "type": "package",
-      "package": {
-        "name": "VRiabovol/phpunitbehat",
-        "version": "3.0",
-        "type": "package",
-        "source": {
-          "url": "https://github.com/VRiabovol/phpunitbehat",
-          "type": "git",
-          "reference": "master"
-        }
-      }
+        "name": "Jonathan Shaw",
+        "email": "jonathanjfshaw@gmail.com"
     }
   ],
   "require": {
       "php": ">=7.0.0",
-      "VRiabovol/phpunitbehat": "*",
+      "behat/behat": "^3.0",
       "phpunit/phpunit": "9.5",
       "symfony/dependency-injection": "^4.4"
   },
